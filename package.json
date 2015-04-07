@@ -1,0 +1,30 @@
+{
+  "name": "add-phony-vertices-to-layers",
+  "version": "1.0.0",
+  "description": "add phony vertices to a layered graph such that no edge spans more than one layer",
+  "main": "./lib/add-phony.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/add-phony-vertices-to-layers.git"
+  },
+  "keywords": [
+    "phony",
+    "graph",
+    "layered",
+    "vertices"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisdickinson/add-phony-vertices-to-layers/issues"
+  },
+  "homepage": "https://github.com/chrisdickinson/add-phony-vertices-to-layers",
+  "devDependencies": {
+    "dag-to-layers": "^2.0.0",
+    "digraph-tag": "^1.0.0",
+    "tape": "^4.0.0"
+  }
+}
